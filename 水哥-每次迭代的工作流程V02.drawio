@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T03:59:13.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="iYq4D2kRe0iVNlYvihTL" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-25T04:01:27.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="GjcKO3bpKK3PHR7GwzlO" version="20.0.3" type="github">
   <diagram id="YU3feAvMAWmFrvA6Q01h" name="第 1 页">
     <mxGraphModel dx="750" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
         <mxCell id="A8igVTBkIp0clDDqToqD-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000033;" edge="1" parent="3ieeocN1eD7Hzq-fFFbV-2" source="3ieeocN1eD7Hzq-fFFbV-8" target="A8igVTBkIp0clDDqToqD-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="A8igVTBkIp0clDDqToqD-7" value="把大的backlog录入到研发管理系统" style="whiteSpace=wrap;html=1;fontSize=10;fillColor=none;fontColor=#000033;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="3ieeocN1eD7Hzq-fFFbV-2">
+          <mxGeometry x="25" y="289.995" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="3ieeocN1eD7Hzq-fFFbV-3" value="Ui设计" style="swimlane;startSize=20;fontSize=10;" parent="3ieeocN1eD7Hzq-fFFbV-1" vertex="1">
           <mxGeometry x="170" y="30" width="170" height="470" as="geometry" />
         </mxCell>
@@ -34,6 +37,9 @@
           <mxGeometry x="510" y="30" width="170" height="470" as="geometry" />
         </mxCell>
         <mxCell id="A8igVTBkIp0clDDqToqD-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000033;" edge="1" parent="3ieeocN1eD7Hzq-fFFbV-1" source="A8igVTBkIp0clDDqToqD-1" target="A8igVTBkIp0clDDqToqD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8igVTBkIp0clDDqToqD-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000033;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3ieeocN1eD7Hzq-fFFbV-1" source="A8igVTBkIp0clDDqToqD-3" target="A8igVTBkIp0clDDqToqD-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
