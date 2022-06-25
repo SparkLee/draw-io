@@ -1,0 +1,30 @@
+<mxfile host="app.diagrams.net" modified="2022-06-25T03:51:00.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="lcjYQbZDGKSf2nt-YXQ8" version="20.0.3" type="github">
+  <diagram id="YU3feAvMAWmFrvA6Q01h" name="第 1 页">
+    <mxGraphModel dx="937" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3ieeocN1eD7Hzq-fFFbV-1" value="每次迭代的工作流程V02" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=30;align=left;fontSize=12;fontColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="230" y="10" width="480" height="500" as="geometry">
+            <mxRectangle x="230" y="30" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ieeocN1eD7Hzq-fFFbV-2" value="产品经理" style="swimlane;startSize=20;fontSize=10;" parent="3ieeocN1eD7Hzq-fFFbV-1" vertex="1">
+          <mxGeometry y="30" width="120" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="3ieeocN1eD7Hzq-fFFbV-8" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=10;fontColor=#000033;labelBackgroundColor=none;fillColor=#FFCC99;aspect=fixed;" parent="3ieeocN1eD7Hzq-fFFbV-2" vertex="1">
+          <mxGeometry x="28.37" y="36" width="63.27" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="3ieeocN1eD7Hzq-fFFbV-3" value="Ui设计" style="swimlane;startSize=20;fontSize=10;" parent="3ieeocN1eD7Hzq-fFFbV-1" vertex="1">
+          <mxGeometry x="120" y="30" width="120" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="3ieeocN1eD7Hzq-fFFbV-4" value="后端程序员" style="swimlane;startSize=20;fontSize=10;" parent="3ieeocN1eD7Hzq-fFFbV-1" vertex="1">
+          <mxGeometry x="240" y="30" width="120" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="3ieeocN1eD7Hzq-fFFbV-5" value="前端程序员" style="swimlane;startSize=20;fontSize=10;" parent="3ieeocN1eD7Hzq-fFFbV-1" vertex="1">
+          <mxGeometry x="360" y="30" width="120" height="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
