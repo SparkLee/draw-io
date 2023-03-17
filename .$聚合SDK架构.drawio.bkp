@@ -1,0 +1,12 @@
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>聚合SDK架构.drawio.html</title>
+<meta charset="utf-8"/>
+</head>
+<body>
+<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;Electron\&quot; modified=\&quot;2023-02-02T04:20:25.476Z\&quot; agent=\&quot;5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.7.4 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36\&quot; version=\&quot;20.7.4\&quot; etag=\&quot;oiIMdsHPqmZavQwh56ic\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;FPnLlnEUAFlPYvbdXkAS\&quot; name=\&quot;第 1 页\&quot;&gt;5ZjbctowEIafRpedkS1jy5c2OE2nh0mHi14LLIOmwqK2EkifvitbPgUngTYJHZJhJtIvyZL329UuIDLd7D8WbLv+qlIukYvTPSIz5LoO8QL4Z5T7WqF0UgurQqR2UifMxW9uRWzVW5HycjBRKyW12A7FpcpzvtQDjRWF2g2nZUoOd92yFT8Q5ksmD9UfItVr+xZu0OnXXKzWzc6OH9YjG9ZMtm9Srlmqdj2JJIhMC6V03drsp1wa4zV2qdddPTLaHqzguT5mQSrK7/FvoRInvl9K8Utvg28fHPuYOyZv7RujxEcxNR9oUIrolT2/vm+MAq+yNU1jTV4gEmcq13M77kBfs0VjLQdIVkJrJmKFG1UKLVQOkuQZjMRrvZH2CQt1m6c8/bJoBMkWXH7Krzmrtqw0gK6ZyHt9Kdm2FIvqIGYb+3a80Hz/qN2clga4MVcbrot7mGIXUGyXWA92GqC7zh9cbLV1zxc8z4rM+uCqfXaHCRqW1CnU3ENqDxn1bFnqQv3kUyWVMVSucpgSF7yEYGsptUqLyUiZkPLBOjCc7sxvYo515mZSql3UhJ1R4D7g/RlHAXnCVQ8xPYeBYFqLBZdMi7thYI+xsXvcKAEHarmTBzRVlpVcH7BsT/b3eL1jYjK5QvHUtJMA0QTRGCWgYwT3q2nMUEQaBTeTwwMvKeows0B3a6H5fMuWZnQHF/owJvvegFySTjhNvQP/ghHqLojvv1D4ecPwaxn3uLch2efuv1b0TU7G4xrTQyMEEah4ZijCBk8EindJeMjI7fi2ePzT8EwMFQggQwXmxLZhgMFQjOLZJeFpc9LZ8ITPp64V2NUYb6PubOZo01O/rzTTvX4/05g+T0W/O0xWzlPmHU7tKrhTaob/rWQIRqJigqIIhW7l8TMUEhsn5mYKEXWMcuGV3+Meenqd8Xrs6Dus9oL3UuyNfQE7IjD7CSzyqiLCRyFUfc4x6QqfnK6yjPvL5Vi6SoNwgV8l4uxTvOFlSs+dwUa+fJ1GDArBEMWJWRVHKPIvndj5S3byr8ggtjAKp1U1H6MwuHRk5y/jnTFmtAITVaU5NmBcPJ99flEGKcU4IGMMognGHrY1z4Ca+XuZet17Qw7Q7X59rNNZ9xsuSf4A&lt;/diagram&gt;&lt;/mxfile&gt;&quot;,&quot;toolbar&quot;:&quot;pages zoom layers lightbox&quot;,&quot;page&quot;:0}"></div>
+<script type="text/javascript" src="https://app.diagrams.net/js/viewer-static.min.js"></script>
+</body>
+</html>
