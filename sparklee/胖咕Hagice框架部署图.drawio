@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-12-27T06:46:12.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="p0fknMdf3Km8gSP9BDJ1" version="21.5.0" type="device">
+<mxfile host="Electron" modified="2024-12-27T09:45:09.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="ca4sNl4w1SiZqQhtyjbE" version="21.5.0" type="device">
   <diagram name="第 1 页" id="1TcEs7H4qGrX66cPTp6P">
-    <mxGraphModel dx="1517" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
         <mxCell id="Q9MMAdPLDHAIFyyj9GLM-6" value="MySQL" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance_2;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1457.2" y="700" width="60" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-9" target="Q9MMAdPLDHAIFyyj9GLM-3">
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-9" target="Q9MMAdPLDHAIFyyj9GLM-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q9MMAdPLDHAIFyyj9GLM-11" value="http://139.224.116.208:81/ （运维服 WebConsole）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-10">
@@ -66,7 +66,7 @@
             <mxPoint y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-9" target="Q9MMAdPLDHAIFyyj9GLM-2">
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-9" target="Q9MMAdPLDHAIFyyj9GLM-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="612.8" y="349.9966666666667" as="sourcePoint" />
             <mxPoint x="967.0000000000002" y="442.33" as="targetPoint" />
@@ -81,6 +81,17 @@
             <mxPoint x="-2" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-9" target="Q9MMAdPLDHAIFyyj9GLM-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-9" target="Q9MMAdPLDHAIFyyj9GLM-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-45" value="http://139.224.116.208:8082/（打点服 WebConsole）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-44">
+          <mxGeometry x="0.6263" y="3" relative="1" as="geometry">
+            <mxPoint x="-2" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Q9MMAdPLDHAIFyyj9GLM-9" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" vertex="1" parent="1">
           <mxGeometry x="539" y="260" width="74.8" height="75.4" as="geometry" />
         </mxCell>
@@ -89,6 +100,44 @@
         </mxCell>
         <mxCell id="Q9MMAdPLDHAIFyyj9GLM-27" value="RocketMQ" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="530" y="900" width="73.5" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-30" target="Q9MMAdPLDHAIFyyj9GLM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-35" value="http://172.29.128.27:9092/service |&amp;nbsp;accessKeyId/accessKeySecret" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-34">
+          <mxGeometry x="-0.229" y="-1" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="269" y="401" width="81.39999999999998" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-30" value="Net （Nginx 网关服）" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.java" vertex="1" parent="Q9MMAdPLDHAIFyyj9GLM-37">
+          <mxGeometry x="47" y="3.5" width="34.4" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-32" value="Nginx" style="ellipse;html=1;" vertex="1" parent="Q9MMAdPLDHAIFyyj9GLM-37">
+          <mxGeometry width="41" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-39" target="Q9MMAdPLDHAIFyyj9GLM-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1800" y="434" />
+              <mxPoint x="1800" y="732" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-41" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-40">
+          <mxGeometry x="0.5123" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-43" value="mysql://172.29.128.27:3306/stat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-40">
+          <mxGeometry x="0.5663" y="-1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-39" value="Stat（打点服）" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.java" vertex="1" parent="1">
+          <mxGeometry x="1841" y="401" width="34.4" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
