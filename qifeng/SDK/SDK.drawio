@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-08-25T09:04:06.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="DSQoCKZ1QHhjKKCZQrfL" version="21.5.0" type="device" pages="6">
+<mxfile host="Electron" modified="2024-03-22T09:12:44.232Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="AZIU7UzFEZwel4mjmIti" version="21.5.0" type="device" pages="6">
   <diagram id="0f7X9nLGbd2L62RvfTnU" name="SDK4-游品 UML 部署图">
     <mxGraphModel dx="2885" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -395,7 +395,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="微信小游戏SDK-登录流程" id="y5xUZZrgRnVzmYhk49GS">
-    <mxGraphModel dx="2298" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="P47vz3Aiqhbh1NwQXE0c-0" />
         <mxCell id="P47vz3Aiqhbh1NwQXE0c-1" parent="P47vz3Aiqhbh1NwQXE0c-0" />
@@ -525,7 +525,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pbPLEjF0OVErzoiVekrZ" name="抖音小游戏SDK-登录流程">
-    <mxGraphModel dx="2298" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -646,11 +646,59 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-1" value="package" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="920" y="530" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-4" value="抖音登录业务流程中涉及到的领域模型【&lt;span style=&quot;font-weight: normal;&quot;&gt;静态模型，不涉及流程交互行为&lt;/span&gt;】" style="shape=folder;fontStyle=1;tabWidth=540;tabHeight=40;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=0;collapsible=0;whiteSpace=wrap;fontSize=15;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="1160" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-6" value="Game" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1010" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-10" value="GameVersion" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1070" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-11" value="【绿色代表：只读模型】&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;（在业务流程中只用于辅助获取相关信息而不会对其进行任何修改的模型）&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="900" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-12" value="【红色代表：写模型】&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;（在业务流程中会新增/修改/删除的模型）&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="900" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-13" value="AdActivity" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1130" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-14" value="AdActivityGame" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1190" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-15" value="Member" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1010" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-25" value="MemExt" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1070" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-26" value="MemberSocialAccount" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1130" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-27" value="LoginLog" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1190" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-28" value="DouyinClient" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1010" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-29" value="第三方服务" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="900" width="129.99" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-tIzVVnRj9yIgY3YrMq-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.214;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k-tIzVVnRj9yIgY3YrMq-4" target="k-tIzVVnRj9yIgY3YrMq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="1070" as="sourcePoint" />
+            <mxPoint x="910" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="--AbuKixy6QwoV8KEPxN" name="抖音小游戏SDK-支付流程">
-    <mxGraphModel dx="3125" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2885" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -706,7 +754,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="72Be8zVp-jB4TJ4mGc2Y" name="抖音小游戏SDK-巨量引擎小游戏直投转化回传">
-    <mxGraphModel dx="2298" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -857,11 +905,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G90feTHIq9XAh4pF42ks" name="SDK领域模型">
-    <mxGraphModel dx="1419" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="560" width="400" height="160" as="geometry" />
         </mxCell>
         <mxCell id="V3irhcffBVcqXzGyKmjE-1" value="红包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -885,37 +933,37 @@
         <mxCell id="V3irhcffBVcqXzGyKmjE-7" value="注册/登录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="80" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y4sNYnKtNAA1v6uilbQV-1" target="y4sNYnKtNAA1v6uilbQV-5">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="y4sNYnKtNAA1v6uilbQV-1" target="y4sNYnKtNAA1v6uilbQV-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y4sNYnKtNAA1v6uilbQV-1" target="y4sNYnKtNAA1v6uilbQV-3">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y4sNYnKtNAA1v6uilbQV-1" target="y4sNYnKtNAA1v6uilbQV-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y4sNYnKtNAA1v6uilbQV-1" target="y4sNYnKtNAA1v6uilbQV-2">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y4sNYnKtNAA1v6uilbQV-1" target="y4sNYnKtNAA1v6uilbQV-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-1" value="玩家&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;- 是否为买量用户&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-1" value="玩家&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;- 是否为买量用户&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="280" y="600" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y4sNYnKtNAA1v6uilbQV-2" target="y4sNYnKtNAA1v6uilbQV-4">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y4sNYnKtNAA1v6uilbQV-2" target="y4sNYnKtNAA1v6uilbQV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-2" value="游戏&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;- 变现模式&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-2" value="游戏&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;- 变现模式&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="480" y="600" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-3" value="渠道" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-3" value="渠道" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="280" y="760" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-4" value="CP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-4" value="CP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="680" y="600" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-5" value="商家&lt;br&gt;（租户）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-5" value="商家&lt;br&gt;（租户）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="80" y="600" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-11" value="SDK 数据统计" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-11" value="SDK 数据统计" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="800" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="y4sNYnKtNAA1v6uilbQV-12" value="对于每日数据统计的需求而言，最细粒度的原子数据即为 《玩家，游戏》二元组的数据，即玩家在游戏中的：登录 / IAP付费 / IAA广告 数据。&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;其他维度（如：渠道级别，游戏级别，渠道/游戏级别，CP级别，租房级别）的统计数据均可以以此原子数据为基础进一步统计而来。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="y4sNYnKtNAA1v6uilbQV-11">
+        <mxCell id="y4sNYnKtNAA1v6uilbQV-12" value="对于每日数据统计的需求而言，最细粒度的原子数据即为 《玩家，游戏》二元组的数据，即玩家在游戏中的：登录 / IAP付费 / IAA广告 数据。&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;其他维度（如：渠道级别，游戏级别，渠道/游戏级别，CP级别，租房级别）的统计数据均可以以此原子数据为基础进一步统计而来。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="y4sNYnKtNAA1v6uilbQV-11" vertex="1">
           <mxGeometry x="10" y="30" width="780" height="80" as="geometry" />
         </mxCell>
       </root>

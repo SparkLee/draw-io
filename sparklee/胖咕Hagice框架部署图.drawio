@@ -1,0 +1,96 @@
+<mxfile host="Electron" modified="2024-12-27T06:46:12.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="p0fknMdf3Km8gSP9BDJ1" version="21.5.0" type="device">
+  <diagram name="第 1 页" id="1TcEs7H4qGrX66cPTp6P">
+    <mxGraphModel dx="1517" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-2" target="Q9MMAdPLDHAIFyyj9GLM-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="573" />
+              <mxPoint x="1120" y="732" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-21" value="mysql://172.29.128.27:3306/PlatFormPF" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-20">
+          <mxGeometry x="0.4037" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-2" target="Q9MMAdPLDHAIFyyj9GLM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-25" value="127.0.0.1:9042 （keyspace：PlatFormProjectF99）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-24">
+          <mxGeometry x="0.3794" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-2" target="Q9MMAdPLDHAIFyyj9GLM-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-29" value="172.29.128.27:9876（scope：projectF）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-28">
+          <mxGeometry x="-0.0635" relative="1" as="geometry">
+            <mxPoint x="-54" y="178" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-2" value="Platform（平台服）" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.java" vertex="1" parent="1">
+          <mxGeometry x="950" y="540" width="34.4" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-3" target="Q9MMAdPLDHAIFyyj9GLM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1487" y="460" />
+              <mxPoint x="967" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-5" value="http://172.29.128.27:9092/service |&amp;nbsp;accessKeyId/accessKeySecret" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-4">
+          <mxGeometry x="-0.3095" y="1" relative="1" as="geometry">
+            <mxPoint x="-80" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-7" value="mysql://172.29.128.27:3306/maintenance" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-3" target="Q9MMAdPLDHAIFyyj9GLM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-3" value="Maintenance（运维服）" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.java" vertex="1" parent="1">
+          <mxGeometry x="1470" y="390" width="34.4" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-6" value="MySQL" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance_2;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1457.2" y="700" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-9" target="Q9MMAdPLDHAIFyyj9GLM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-11" value="http://139.224.116.208:81/ （运维服 WebConsole）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-10">
+          <mxGeometry x="-0.3653" y="-4" relative="1" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q9MMAdPLDHAIFyyj9GLM-9" target="Q9MMAdPLDHAIFyyj9GLM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="612.8" y="349.9966666666667" as="sourcePoint" />
+            <mxPoint x="967.0000000000002" y="442.33" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="575" y="350" />
+              <mxPoint x="967" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-19" value="http://139.224.116.208:20080/（平台服 WebConsole）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q9MMAdPLDHAIFyyj9GLM-18">
+          <mxGeometry x="-0.2646" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-9" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" vertex="1" parent="1">
+          <mxGeometry x="539" y="260" width="74.8" height="75.4" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-23" value="Cassandra" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Managed_Instance_Apache_Cassandra.svg;" vertex="1" parent="1">
+          <mxGeometry x="933.2" y="880" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9MMAdPLDHAIFyyj9GLM-27" value="RocketMQ" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="900" width="73.5" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
